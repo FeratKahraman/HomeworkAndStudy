@@ -6,7 +6,7 @@ public class coding_task_11 {
         System.out.println("Number please");
         int number = input.nextInt();
         for (int i=0;i<11;i++){
-            System.out.println(number*i);
+            System.out.println(number + " x " + i + " = " + number*i);
         }
     }
 }
